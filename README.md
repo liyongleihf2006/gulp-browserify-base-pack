@@ -1,8 +1,8 @@
-##gulp-browserify-base-pack
+## gulp-browserify-base-pack
 
 使用**gulp** 和 **browserify** 来优化和打包项目的js,css的最基本的操作配置。
 
-####为什么这样实现?
+#### 为什么这样实现?
 
 针对我们的项目，我们希望对于相同文件夹下面的html,js,css及其他资源能够:同一个文件夹下面的js,css及其他资源只为该文件夹下面的html负责。
 
@@ -10,7 +10,7 @@
 
 2. 每个文件夹下面的css合并为一个css
 
-####示例项目中的src中的文件结构为:
+#### 示例项目中的src中的文件结构为:
 
     ├── src
            ├── app
@@ -41,7 +41,7 @@
                   ├── leftMenu.css
                   ├── leftMenu.js
 
-####处理后在dist中生成的文件结构如下:
+#### 处理后在dist中生成的文件结构如下:
 
     ├── dist
            ├── app
