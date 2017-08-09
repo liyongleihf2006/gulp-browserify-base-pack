@@ -1,0 +1,13 @@
+.app{
+    background-color: red;
+    background-repeat: no-repeat;
+    animation: testanimations;
+}
+@keyframes testanimations{
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(20px, 20px); }
+    40% { transform: translate(40px, 0); }
+    60% { transform: translate(60px, 20px); }
+    80% { transform: translate(80px, 0); }
+    100% { transform: translate(100px, 20px); }
+}
